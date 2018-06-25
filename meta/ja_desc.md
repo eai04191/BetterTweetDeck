@@ -20,6 +20,7 @@ TweetDeck web を使いやすくする拡張機能です。絵文字、サムネ
   - 500px
   - Bandcamp
   - CloudApp
+  - Crypko
   - Dailymotion
   - DeviantArt
   - Dribbble
@@ -48,9 +49,7 @@ TweetDeck web を使いやすくする拡張機能です。絵文字、サムネ
   - yfrog
 
 バグ報告はこちら:
-https://github.com/eramdam/BetterTweetDeck/issues
+https://github.com/eai04191/BetterTweetDeck/issues
 
 ソースコード:
-https://github.com/eramdam/BetterTweetDeck
-
-Twitter アカウント @BetterTDeck をフォローすると、更新情報やサポートを受けられます(英語)。
+https://github.com/eai04191/BetterTweetDeck

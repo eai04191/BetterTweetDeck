@@ -48,9 +48,9 @@ Features:
   - yfrog
 
 Melde Fehler hier:
-https://github.com/eramdam/BetterTweetDeck/issues
+https://github.com/eai04191/BetterTweetDeck/issues
 
 Quellcode:
-https://github.com/eramdam/BetterTweetDeck
+https://github.com/eai04191/BetterTweetDeck
 
 Folge @BetterTDeck auf Twitter für News/Support.

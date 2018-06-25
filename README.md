@@ -1,27 +1,15 @@
-![](https://raw.githubusercontent.com/eramdam/BetterTweetDeck/master/meta/better.tw_.png)
+![](https://raw.githubusercontent.com/eai04191/BetterTweetDeck/master/meta/better.tw_.png)
 
 <h1 align="center">Better TweetDeck</h1>
 <p align="center">
-<a href="https://travis-ci.org/eramdam/BetterTweetDeck/">
-  <img src="https://img.shields.io/travis/eramdam/BetterTweetDeck.svg" alt="Travis CI">
+<!--<a href="https://travis-ci.org/eai04191/BetterTweetDeck/">
+  <img src="https://img.shields.io/travis/eai04191/BetterTweetDeck.svg" alt="Travis CI">
+</a>-->
+<a href="https://chrome.google.com/webstore/detail/chimpimcncldeomdpdcjajkmeeddadfo/">
+  <img src="https://img.shields.io/chrome-web-store/v/chimpimcncldeomdpdcjajkmeeddadfo.svg" alt="Chrome Store Version">
 </a>
-<a href="https://better.tw/chrome">
-  <img src="https://img.shields.io/chrome-web-store/v/micblkellenpbfapmcpcfhcoeohhnpob.svg" alt="Chrome Store Version">
-</a>
-<a href="https://better.tw/chrome">
-  <img src="https://img.shields.io/chrome-web-store/d/micblkellenpbfapmcpcfhcoeohhnpob.svg" alt="Chrome Store Users">
-</a>
-<a href="https://better.tw/firefox">
-  <img src="https://img.shields.io/amo/v/better-tweetdeck-17.svg" alt="Mozilla Add-ons Version">
-</a>
-<a href="https://better.tw/firefox">
-  <img src="https://img.shields.io/amo/users/better-tweetdeck-17.svg" alt="Mozille Add-ons Users">
-</a>
-<a href="https://twitter.com/@BetterTDeck">
-  <img src="https://img.shields.io/badge/twitter-%40BetterTDeck-blue.svg" alt="Follow on Twitter">
-</a>
-<a href="https://paypal.me/eramdam">
-<img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="Donate on PayPal">
+<a href="https://chrome.google.com/webstore/detail/chimpimcncldeomdpdcjajkmeeddadfo/">
+  <img src="https://img.shields.io/chrome-web-store/d/chimpimcncldeomdpdcjajkmeeddadfo.svg" alt="Chrome Store Users">
 </a>
 </p>
 
@@ -32,9 +20,7 @@ Adds some nice options on [TweetDeck](http://tweetdeck.twitter.com) to provide a
 # Installation
 
 The extensions is currently available for the following browsers:
-- [Chrome](https://chrome.google.com/webstore/detail/bettertweetdeck-3/micblkellenpbfapmcpcfhcoeohhnpob)
-- [Opera](https://addons.opera.com/en/extensions/details/bettertweetdeck/)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/better-tweetdeck-17/)
+- [Chrome](https://chrome.google.com/webstore/detail/chimpimcncldeomdpdcjajkmeeddadfo/)
 
 # Features
 

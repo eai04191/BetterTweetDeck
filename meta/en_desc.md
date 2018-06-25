@@ -20,6 +20,7 @@ Features:
   - 500px
   - Bandcamp
   - CloudApp
+  - Crypko
   - Dailymotion
   - DeviantArt
   - Dribbble
@@ -48,9 +49,7 @@ Features:
   - yfrog
 
 Report bugs here:
-https://github.com/eramdam/BetterTweetDeck/issues
+https://github.com/eai04191/BetterTweetDeck/issues
 
 Source code:
-https://github.com/eramdam/BetterTweetDeck
-
-Follow @BetterTDeck on Twitter for news/support
+https://github.com/eai04191/BetterTweetDeck
