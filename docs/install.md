@@ -10,4 +10,4 @@ The easiest and most practical way to install BetterTweetDeck is downloading it 
 
 ## For Developers
 
-Checkout the [CONTRIBUTING](https://github.com/eramdam/BetterTweetDeck/blob/master/CONTRIBUTING.md#contributing) file for instructions.
+Checkout the [CONTRIBUTING](https://github.com/eai04191/BetterTweetDeck/blob/master/CONTRIBUTING.md#contributing) file for instructions.

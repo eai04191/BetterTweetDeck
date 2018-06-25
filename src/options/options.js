@@ -536,7 +536,7 @@ fetch('https://api.github.com/repos/eramdam/BetterTweetDeck/contributors').then(
         return;
       }
 
-      const commitsLinks = `https://github.com/eramdam/BetterTweetDeck/commits?author=${
+      const commitsLinks = `https://github.com/eai04191/BetterTweetDeck/commits?author=${
         contributor.login
       }`;
 
@@ -560,7 +560,7 @@ const makeReleaseMarkup = (release) => {
   const string = release.description
     .replace(
       GITHUB_ISSUES_RE,
-      '$1<a href="https://github.com/eramdam/BetterTweetDeck/issues/$2">#$2</a>$3',
+      '$1<a href="https://github.com/eai04191/BetterTweetDeck/issues/$2">#$2</a>$3',
     )
     .replace(
       GITHUB_USERNAME_RE,
@@ -604,7 +604,7 @@ const usedDeps = [
   { name: 'PostCSS', url: 'http://postcss.org/' },
   {
     name: 'See other dependencies',
-    url: 'https://github.com/eramdam/BetterTweetDeck/blob/master/package.json',
+    url: 'https://github.com/eai04191/BetterTweetDeck/blob/master/package.json',
   },
 ];
 

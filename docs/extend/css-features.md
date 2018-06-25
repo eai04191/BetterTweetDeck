@@ -10,14 +10,14 @@ your own extension!
 ## Steps
 
 * If you have your idea, play around with it using the Inspector first, to see if it is actually possible
-* Add an option for your feature to the `css` key in [src/js/background.js](https://github.com/eramdam/BetterTweetDeck/blob/master/src/js/background.js)
+* Add an option for your feature to the `css` key in [src/js/background.js](https://github.com/eai04191/BetterTweetDeck/blob/master/src/js/background.js)
   * _Keep it short, but descriptive. If you can't describe it it 2-3 words it is probably too complex!_
   * Use underscores for spaces!
-* Add your feature in a CSS file to [src/css/features](https://github.com/eramdam/BetterTweetDeck/blob/master/src/css/features)
+* Add your feature in a CSS file to [src/css/features](https://github.com/eai04191/BetterTweetDeck/blob/master/src/css/features)
   * Name the CSS file like your feature key, but this time use dashes instead of underscores for the file name!
   * Add the class `.btd__{your feature key}` (as written as in the options key, with underscores) in front of your CSS selectors
-* Import the created CSS file into [src/css/index.css](https://github.com/eramdam/BetterTweetDeck/blob/master/src/css/index.css)
-* Add another checkbox to make your feature selectable to [src/options/options.html](https://github.com/eramdam/BetterTweetDeck/blob/master/src/options/options.html)
+* Import the created CSS file into [src/css/index.css](https://github.com/eai04191/BetterTweetDeck/blob/master/src/css/index.css)
+* Add another checkbox to make your feature selectable to [src/options/options.html](https://github.com/eai04191/BetterTweetDeck/blob/master/src/options/options.html)
   * Find the appropriate section to add your feature, mostly it's the `General` section.
   * Add your feature option to the end of the list with following markup:
     ```
@@ -26,7 +26,7 @@ your own extension!
         <label for="{your feature key}" data-lang="{your feature language key}" data-new-feat >Description of my cool new feature</label>
       </li>
     ```
-* Add a locale for your feature description to [src/_locales/en/messages.json](https://github.com/eramdam/BetterTweetDeck/blob/master/src/_locales/en/messages.json)
+* Add a locale for your feature description to [src/_locales/en/messages.json](https://github.com/eai04191/BetterTweetDeck/blob/master/src/_locales/en/messages.json)
   * Use following markup:
     ```
       "css_{your feature key}": { "message": "Description of my cool new feature" }

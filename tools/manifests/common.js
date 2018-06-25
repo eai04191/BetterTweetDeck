@@ -28,12 +28,12 @@ const urls = require('./commonHosts');
 
 /* eslint quotes: 0 */
 const common = {
-  name: `${isBeta ? 'βeta' : 'Better'} TweetDeck`.trim(),
-  short_name: `${isBeta ? 'βeta ' : 'Better'}TDeck`,
+  name: `${isBeta ? 'βeta' : 'Better'} TweetDeckCrypkoFork`.trim(),
+  short_name: `${isBeta ? 'βeta ' : 'Better'}TDeckCrpko`,
   version: isBeta ? betaVersion() : packageJson.extension_version,
   version_name: isBeta ? betaVersion() : packageJson.extension_version,
   manifest_version: 2,
-  homepage_url: 'https://better.tw',
+  homepage_url: 'https://github.com/eai04191/BetterTweetDeck/',
   content_scripts: [
     {
       matches: ['*://tweetdeck.twitter.com/*'],

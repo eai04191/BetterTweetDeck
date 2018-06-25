@@ -1,2 +1,2 @@
 
-Please see https://github.com/eramdam/BetterTweetDeck/releases
+Please see https://github.com/eai04191/BetterTweetDeck/releases

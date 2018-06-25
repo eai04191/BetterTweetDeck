@@ -1,16 +1,16 @@
 {
-  "name": "BetterTweetDeck",
-  "version": "3.7.6",
+  "name": "BetterTweetDeckCrypkoFork",
+  "description": "Fork of BetterTweetDeck with Crypko support.",
   "extension_version": "3.7.6",
-  "description": "Adds some nice options on TweetDeck to provide a better experience on the webapp when used on Chrome.",
+  "version": "3.7.6",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eramdam/BetterTweetDeck.git"
+    "url": "https://github.com/eai04191/BetterTweetDeck.git"
   },
-  "author": "Damien Erambert",
+  "author": "Eai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eramdam/BetterTweetDeck/issues"
+    "url": "https://github.com/eai04191/BetterTweetDeck/issues"
   },
   "scripts": {
     "prerelease": "rimraf artifacts/*",
@@ -27,7 +27,7 @@
     "prepush": "npm run lint",
     "fix": "prettier-eslint --list-different --write '**/*.{js,jsx}' && prettier-stylelint --write -q"
   },
-  "homepage": "https://github.com/eramdam/BetterTweetDeck",
+  "homepage": "https://github.com/eai04191/BetterTweetDeck",
   "dependencies": {
     "apollo-fetch": "^0.7.0",
     "babel-core": "^6.25.0",

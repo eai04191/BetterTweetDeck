@@ -83,7 +83,7 @@ Better TweetDeck **is not** made to:
 
 You will need [NodeJS](https://nodejs.org/en/) (**The more recent the better**). Fire up your favorite Terminal emulator and do the followings: 
 
-- **[Fork](https://github.com/eramdam/BetterTweetDeck/fork)** this repository
+- **[Fork](https://github.com/eai04191/BetterTweetDeck/fork)** this repository
 - Clone the project
 - Run `npm install`
 
@@ -91,7 +91,7 @@ You will need [NodeJS](https://nodejs.org/en/) (**The more recent the better**).
 
 #### The npm scripts
 
-The [package.json](https://github.com/eramdam/BetterTweetDeck/blob/master/package.json) file contains various scripts.
+The [package.json](https://github.com/eai04191/BetterTweetDeck/blob/master/package.json) file contains various scripts.
 
 Some scripts have `<browser>` in their name or arguments. As of now, two browsers (or rather three actually) are supported:
 
@@ -123,7 +123,7 @@ Now that you know what's available in your hands, let's get started. On a typica
 ### About the config
 
 This project is using [config](https://npmjs.org/package/config) and [config-browserify](https://npmjs.org/package/config-browserify) to handle configuration.
-You will have to fill a `dev.js` using the [default.js](https://github.com/eramdam/BetterTweetDeck/blob/master/config/default.js) file as an example. 
+You will have to fill a `dev.js` using the [default.js](https://github.com/eai04191/BetterTweetDeck/blob/master/config/default.js) file as an example. 
 
 **DO NOT COMMIT YOUR CONFIGURATION FILE. DO NOT COMMIT API KEYS AND/OR SECRET**.
 
@@ -133,7 +133,7 @@ Awesome! I'm sure your feature and/or bugfix is amazing :tada:
 
 - **Commit your changes** to your feature branch
 - **Test your feature/bugfix locally** by building the extension given above and be sure it works the way it is intended to
-- **[Submit a Pull Request](https://github.com/eramdam/BetterTweetDeck/compare)** if your changes are done and working
+- **[Submit a Pull Request](https://github.com/eai04191/BetterTweetDeck/compare)** if your changes are done and working
 - **Wait for feedback** on your Pull Request and make changes if necessary
 - **Enjoy the heartwarming feeling of your feature being merged**
 

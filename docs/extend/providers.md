@@ -7,8 +7,8 @@ These previews are mostly embeds or images, depending on service type.
 
 ## Steps
 
-* Before implementing a provider, please check if it already exists in [src/js/util/providers](https://github.com/eramdam/BetterTweetDeck/blob/master/src/js/util/providers)
-* If your provider needs to fetch data from an API, add the endpoint to the `endpoints` object in [src/js/util/thumbnails.js](https://github.com/eramdam/BetterTweetDeck/blob/master/src/js/util/thumbnails.js)
+* Before implementing a provider, please check if it already exists in [src/js/util/providers](https://github.com/eai04191/BetterTweetDeck/blob/master/src/js/util/providers)
+* If your provider needs to fetch data from an API, add the endpoint to the `endpoints` object in [src/js/util/thumbnails.js](https://github.com/eai04191/BetterTweetDeck/blob/master/src/js/util/thumbnails.js)
 * Create a new file for your provider using `{provider name}.js` in `src/js/util/providers`
   * You can use the following base template for your provider:
     ```js
@@ -50,11 +50,11 @@ These previews are mostly embeds or images, depending on service type.
         const thumbnail = secureDomify.getAttributeFromNode('[property="twitter:image"]', el, 'content');
         const embedURL = secureDomify.getAttributeFromNode('[property="twitter:player"]', el, 'content');
       ```
-* Import your provider into [src/js/util/providers/index.js](https://github.com/eramdam/BetterTweetDeck/blob/master/src/js/util/providers/index.js):
+* Import your provider into [src/js/util/providers/index.js](https://github.com/eai04191/BetterTweetDeck/blob/master/src/js/util/providers/index.js):
   ```js
     export { default as provider } from './provider';
   ```
-* Add your provider to the provider whitelist in [src/js/util/thumbnails.js](https://github.com/eramdam/BetterTweetDeck/blob/master/src/js/util/thumbnails.js):
+* Add your provider to the provider whitelist in [src/js/util/thumbnails.js](https://github.com/eai04191/BetterTweetDeck/blob/master/src/js/util/thumbnails.js):
   ```js
     const schemeWhitelist = [
       // ...
