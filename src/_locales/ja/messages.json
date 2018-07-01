@@ -1,10 +1,10 @@
 {
   "appDesc": {
     "message":
-      "絵文字、サムネイルの表示など、https://tweetdeck.twitter.com にさまざまな機能を追加する拡張機能です！"
+      "BetterTweetDeckのCrypkoサムネイル対応forkです。"
   },
   "appName": {
-    "message": "BetterTweetDeck"
+    "message": "BetterTweetDeckCrypko"
   },
   "shareOnTD": { "message": "TweetDeck で共有" },
   "settingsTitle": { "message": "Better TweetDeck 設定" },
