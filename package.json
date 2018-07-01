@@ -1,8 +1,14 @@
 {
   "name": "BetterTweetDeckCrypkoFork",
+<<<<<<< HEAD
   "description": "Fork of BetterTweetDeck with Crypko support.",
   "extension_version": "3.7.6",
   "version": "3.7.6",
+=======
+  "version": "3.7.5",
+  "extension_version": "3.7.5",
+  "description": "Fork of BetterTweetDeck with Crypko support.",
+>>>>>>> fork
   "repository": {
     "type": "git",
     "url": "https://github.com/eai04191/BetterTweetDeck.git"
@@ -27,6 +33,20 @@
     "prepush": "npm run lint",
     "fix": "prettier-eslint --list-different --write '**/*.{js,jsx}' && prettier-stylelint --write -q"
   },
+<<<<<<< HEAD
+=======
+  "lint-staged": {
+    "*.css": [
+      "prettier-stylelint --write",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "prettier-eslint --write",
+      "eslint",
+      "git add"
+    ]
+  },
+>>>>>>> fork
   "homepage": "https://github.com/eai04191/BetterTweetDeck",
   "dependencies": {
     "apollo-fetch": "^0.7.0",
